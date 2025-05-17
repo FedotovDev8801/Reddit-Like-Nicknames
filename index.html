@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Reddit-like Nickname Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Reddit-like Nickname Generator</h1>
+
+  <label for="lang">Nickname lang: </label>
+  <select id="lang">
+    <option value="en">English</option>
+    <option value="ru">Русский</option>
+  </select>
+
+  <div id="nickname">Press the buutton to generate nickname!</div>
+
+  <div class="buttons">
+    <button onclick="generateNickname()">Generate</button>
+    <button onclick="copyNickname()">Copy</button>
+  </div>
+
+  <footer>
+    <p>Made by <strong>FedotovDev</strong> | <a href="https://github.com/FedotovDev" target="_blank">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
